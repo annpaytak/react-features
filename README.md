@@ -2,12 +2,11 @@
 Test different React features and additional libraries
 
 tools:
-react
-react-redux
-@reduxjs/toolkit
+React hooks (useCallback, useState, useEffect)
+typescript
 
 fetch API:
 https://jsonplaceholder.typicode.com/posts
 
 what to do:
-fetched posts; on post's click - show it's comments;
+fetched posts; on post's hover - prefetch comments, if clicked - show;
