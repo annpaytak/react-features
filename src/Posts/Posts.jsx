@@ -8,18 +8,18 @@ const useFetchData = (fetchFn) => {
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const fetchData = useCallback(() => {
+  const fetchFnCallback = useCallback(() => {
     return fetchFn()
       .then(setData, setError)
       .finally(() => setLoading(false));
   }, [fetchFn]);
 
   useEffect(() => {
-    fetchData();
-  }, [fetchData]);
+    fetchFnCallback();
+  }, [fetchFnCallback]);
 
   console.log(data);
-  return {data, error, loading, refetch: fetchData};
+  return {data, error, loading, refetch: fetchFnCallback};
 };
 
 const fetchPosts = () =>
