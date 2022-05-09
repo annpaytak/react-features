@@ -1,12 +1,10 @@
-# react-features
-Test different React features and additional libraries
+# react with typescript
 
-tools:
-React hooks (useCallback, useState, useEffect)
-typescript
+### what's done
 
-fetch API:
-https://jsonplaceholder.typicode.com/posts
+fetched posts with fetch API: https://jsonplaceholder.typicode.com/posts
+on post's hover - prefetch comments, if clicked - show
 
-what to do:
-fetched posts; on post's hover - prefetch comments, if clicked - show;
+### tools
+
+`react typescript`
