@@ -1,11 +1,9 @@
-# react-features
-Test different React features and additional libraries
+# useQuery hook with react
 
-tools:
-React hooks (useCallback, useState, useEffect)
+### what's done
 
-fetch API:
-https://jsonplaceholder.typicode.com/posts
-
-what to do:
 fetched posts; on post's hover - prefetch comments, if clicked - show;
+
+### tools
+
+`react`
