@@ -1,9 +1,9 @@
-# react with redux toolkit
+# debounce hook with react
 
 ### what's done
 
-fetched posts with fetch API: https://jsonplaceholder.typicode.com/posts, on post's click - show it's comments
+do not call fetch on each input typing, instead fetch data only after user finished typing
 
 ### tools
 
-`react react-redux @reduxjs/toolkit`
+`react`
