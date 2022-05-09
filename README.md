@@ -1,13 +1,9 @@
-# react-features
-Test different React features and additional libraries
+# react with redux toolkit
 
-tools:
-react
-react-redux
-@reduxjs/toolkit
+### what's done
 
-fetch API:
-https://jsonplaceholder.typicode.com/posts
+fetched posts with fetch API: https://jsonplaceholder.typicode.com/posts, on post's click - show it's comments
 
-what to do:
-fetched posts; on post's click - show it's comments;
+### tools
+
+`react react-redux @reduxjs/toolkit`
