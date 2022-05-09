@@ -6,4 +6,4 @@ fetched posts with fetch API: https://jsonplaceholder.typicode.com/posts, on pos
 
 ### tools
 
-`react react-redux @reduxjs/toolkit`
+`react redux @reduxjs/toolkit`
