@@ -1,12 +1,9 @@
-# react-features
-Test different React features and additional libraries
+# react autocomplete with hooks
 
-tools:
-React hooks (useCallback, useState, useRef)
+### what's done
 
-fetch API:
-https://jsonplaceholder.typicode.com/posts
+on input type show autocomplete
 
-what to do:
-create Debounce hook:
-do not call fetch on each input typing, instead fetch data only after user finished typing;
+### tools
+
+`react`

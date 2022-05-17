@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Users } from './Users';
+import { App } from './Autocomplete';
 
 const mountNode = document.getElementById('root');
 
 ReactDOM.render(
   <React.StrictMode>
-    <Users/>
+    <App/>
   </React.StrictMode>,
   mountNode
 );
