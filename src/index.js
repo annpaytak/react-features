@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Users } from './Users';
+import { Chart, Highchart, PowerBiChart } from './Charts';
 
 const mountNode = document.getElementById('root');
 
 ReactDOM.render(
   <React.StrictMode>
-    <Users/>
+    {/* <PowerBiChart /> */}
+    <Chart />
+    <Highchart />
   </React.StrictMode>,
   mountNode
 );

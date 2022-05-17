@@ -1,12 +1,9 @@
-# react-features
-Test different React features and additional libraries
+# react charts
 
-tools:
-React hooks (useCallback, useState, useRef)
+### what's done
 
-fetch API:
-https://jsonplaceholder.typicode.com/posts
+three different charts
 
-what to do:
-create Debounce hook:
-do not call fetch on each input typing, instead fetch data only after user finished typing;
+### tools
+
+`powerbi-client-react react-chartjs-2 chart.js highcharts`
