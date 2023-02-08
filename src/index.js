@@ -1,12 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Users } from './Users';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Posts } from "./Posts";
 
-const mountNode = document.getElementById('root');
+const mountNode = document.getElementById("root");
 
 ReactDOM.render(
   <React.StrictMode>
-    <Users/>
+    <Posts />
   </React.StrictMode>,
   mountNode
 );
