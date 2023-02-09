@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Posts } from "./Posts";
+import { Counter } from "./Counter";
 
 const mountNode = document.getElementById("root");
 
 ReactDOM.render(
   <React.StrictMode>
-    <Posts />
+    <Counter />
   </React.StrictMode>,
   mountNode
 );

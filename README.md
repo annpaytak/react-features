@@ -2,12 +2,15 @@
 
 ### what's done
 
-do not call fetch on each input typing, instead fetch data only after user finished typing
+throttle function when you care about some intermediate values of a frequently executed expensive action, but it's ok to discard most of them
 
-Created a function that accepts a function to debounce and the timeout delay as arguments.
-The debounce function returns a new function. When it's executed, it creates a timer to execute the original function after the delay and cancels the previous timer.
+use case: optimize the resize and scroll handlers
 
-Attached an extra method to the original debounce function implementation, that runs the pending action instantly and clears the timer.
+Throttling limits the rate of execution, is similar to debounce, except it guarantees the regular execution of an action. Calls callback every X milliseconds.
+
+Created a throttle function that accepts a callback and the cooldown duration arguments.
+The throttle function returns a new function, which when executed, stores the call arguments and starts the cooldown timer.
+When the timer finishes, execute the action with the cached arguments and clear them.
 
 ### tools
 
